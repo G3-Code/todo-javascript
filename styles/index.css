@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  padding: 0px;
+  margin: 0px;
+  max-width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 50%;
+  height: 90vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.todo-text {
+  width: 50rem;
+}
+
+.todo-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 75%;
+  border: 1px solid red;
+  margin: 5%;
+}
